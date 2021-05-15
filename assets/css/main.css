@@ -1,0 +1,410 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Raleway&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    background-color: #a8a8a8;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-selection {
+    background: #f6a1ff;
+    color: #fff;
+}
+
+::selection {
+    background: #f6a1ff;
+    color: #fff;
+}
+
+body, input, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ff77c0;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+    max-width: 80%;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Utils */
+
+.mainText {
+    color: white;
+    font-size: 4rem;
+}
+
+.mainTextDark {
+    color: #22252A;
+    font-size: 4rem;
+}
+
+.bgDark {
+    background: #333;
+    color: white;
+}
+
+.bgLight {
+    background: white;
+    color: #333;
+}
+
+.whiteText {
+    color: white;
+}
+
+.centreColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCentre {
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p2 {
+    padding: 2rem;
+}
+
+.p3 {
+    padding: 3rem;
+}
+
+.disclaim {
+    opacity: 30%;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+/* General Alignment */
+
+#feature, #about, #menu, #locations, #contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    list-style: none;
+    top: 0;
+    padding: 1rem;
+    align-items: flex-start;
+}
+
+.logo {
+    max-width: 7.5rem;
+    height: auto;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    align-items: flex-start;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2rem 1rem;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Splash Page */
+
+#splashPage {
+    height: 100vh;
+    background: linear-gradient(228deg, #d724ea, #f76f8e, #2ec4b6);
+    background-size: 600% 600%;
+    -webkit-animation: aniBG 21s ease infinite;
+    -moz-animation: aniBG 21s ease infinite;
+    -o-animation: aniBG 21s ease infinite;
+    animation: aniBG 21s ease infinite;
+}
+
+@-webkit-keyframes aniBG {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+@-moz-keyframes aniBG {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+@-o-keyframes aniBG {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+@keyframes aniBG {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+/* Feature (Text) */
+
+#feature {
+    height: 70vh;
+}
+
+#feature p {
+    font-size: 1.5rem;
+}
+
+#feature .name {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Image Grid */
+
+/* .wrapper {
+    width: 100%;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+.container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black
+}
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 125px;
+    grid-auto-flow: dense;
+}
+
+.horizontal {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+} */
+
+/* Menu */
+
+#menu img {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+/* Locations */
+
+#locations {
+    padding: 6em 0 6em 0;
+    background-color: #4686a0;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed, fixed;
+    background-image: url(/assets/img/locations-bg.png);
+    background-position: top left, center center, center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#locations img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 1rem;
+    border: 0.5rem solid white;
+}
+
+/* Contact */
+
+input[type=text], textarea {
+    width: 40vw;
+    height: 20vh;
+    padding: 1rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 20vw;
+    background-color: rgb(53, 224, 67);
+    color: white;
+    padding: 1rem;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(117, 255, 117);
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+/* Footer */
+
+#footer {
+    background: linear-gradient(228deg, #d724ea, #f76f8e, #2ec4b6);
+    background-size: 600% 600%;
+    -webkit-animation: aniBG 21s ease infinite;
+    -moz-animation: aniBG 21s ease infinite;
+    -o-animation: aniBG 21s ease infinite;
+    animation: aniBG 21s ease infinite;
+}
+
+#modalButton {
+    cursor: pointer;
+    color: lightblue;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

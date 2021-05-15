@@ -1,0 +1,59 @@
+
+
+/* Text Fitting */
+
+p {
+    margin: 0.75rem 0;
+    max-width: 95%;
+    align-items: flex-start;
+}
+
+.flexContainer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Responsive Nav */
+
+.logo {
+    max-width: 10rem;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Feature Resizing */
+
+#feature {
+    height: 45vh;
+}
+
+/* Image Resizing */
+
+#menu img {
+    width: 100%;
+    height: auto;
+}
+
+#locations img {
+    width: 80%;
+    height: auto;
+}
+
+/* Contact Form Resizing */
+
+input[type=text], textarea {
+    width: 80vw;
+    height: 20vh;
+}
+
+input[type=submit] {
+    width: 40vw;
+}

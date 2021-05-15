@@ -1,0 +1,22 @@
+
+
+#feature {
+    height: 40vh;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2rem 0.4rem;
+    font-size: 0.9rem;
+}
+
+/* Contact Form Resizing */
+
+input[type=text], textarea {
+    width: 80vw;
+    height: 20vh;
+}
+
+input[type=submit] {
+    width: 40vw;
+}
